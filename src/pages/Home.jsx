@@ -7,8 +7,11 @@ export default function Home() {
     return (
         <div className="px-10 py-5 space-y-5">
             <div className='flex justify-center'>
-                <img src="/teste1.jpg"
-                    alt="" />
+                <motion.img
+                src="/teste1.jpg"
+                whileHover={{ scale: 1.08 }}
+                transition={{ duration: 0.4 }}
+              />
             </div>
 
             {/* HERO */}
