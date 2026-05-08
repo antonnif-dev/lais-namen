@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 export default function Sobre() {
     return (
-        <div className="p-10 max-w-3xl mx-auto space-y-5">
+        <div className="px-10 max-w-3xl mx-auto space-y-5">
             <div className='py-5'>
                 <motion.h1
                     initial={{ opacity: 0 }}
@@ -18,10 +18,15 @@ export default function Sobre() {
             </div>
             <div className='flex justify-center'>
                 <motion.img
-                    src="/teste2.jpg"
+                    src="/Foto-Sobre.jpg"
                     whileHover={{ scale: 1.08 }}
                     transition={{ duration: 0.4 }}
                 />
+            </div>
+            <div>
+                <p className="text-gray-200">
+                    Ingressou na área no ano de 2000* com a promessa de fazer com que...
+                </p>
             </div>
         </div>
     );

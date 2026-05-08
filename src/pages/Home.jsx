@@ -6,12 +6,18 @@ export default function Home() {
 
     return (
         <div className="px-10 py-5 space-y-5">
-            <div className='flex justify-center'>
+            <div className="w-full h-[500px] overflow-hidden flex justify-center">
                 <motion.img
-                src="/teste1.jpg"
-                whileHover={{ scale: 1.08 }}
-                transition={{ duration: 0.4 }}
-              />
+                    src="/Foto-Home2.png"
+                    className="
+            h-full
+            w-auto
+            object-cover
+            object-center
+        "
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ duration: 0.4 }}
+                />
             </div>
 
             {/* HERO */}
