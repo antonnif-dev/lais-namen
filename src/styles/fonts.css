@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'LucidaBright';
+  src: url('../assets/fonts/LucidaBrightRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LucidaFaxItalic';
+  src: url('../assets/fonts/LucidaFaxItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}

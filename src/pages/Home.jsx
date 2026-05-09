@@ -28,7 +28,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className="text-4xl font-bold font-title"
                 >
-                    Cuidando da sua saúde física e emocional
+                    Cuidando da sua saúde emocional
                 </motion.h1>
 
                 <p className="text-gray-400 max-w-xl mx-auto text-center">

@@ -116,3 +116,21 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* fontes */
+
+.titulo-nome {
+  font-family: 'LucidaBright', serif;
+  color: white;
+}
+
+.subtitulo-especialidade {
+  font-family: 'LucidaFaxItalic', serif;
+
+  background: linear-gradient(90deg,
+      #FFD54F 0%,
+      #C79200 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
