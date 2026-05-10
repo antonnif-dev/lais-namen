@@ -5,7 +5,7 @@ export default function Home() {
     const whatsappUrl = `https://wa.me/5599999999999?text=${encodeURIComponent("Olá, gostaria de agendar uma sessão.")}`
 
     return (
-        <div className="px-10 py-5 space-y-5">
+        <div className="px-10 space-y-5">
             <div className="w-full h-[500px] overflow-hidden flex justify-center">
                 <motion.img
                     src="/Foto-Home2.png"
@@ -28,12 +28,13 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className="text-4xl font-bold font-title"
                 >
-                    Cuidando da sua saúde emocional
+                    Cuidado médico humanizado em saúde mental da infância e adolescência para fortalecer vínculos, acolher emoções e transformar relações familiares.
                 </motion.h1>
-
+                {/* 
                 <p className="text-gray-400 max-w-xl mx-auto text-center">
                     Atendimento psicológico humanizado para ansiedade, estresse e autoconhecimento.
                 </p>
+                */}
                 <div className="flex justify-center py-5">
                     <a
                         href={whatsappUrl}
@@ -47,7 +48,20 @@ export default function Home() {
 
             {/* BENEFÍCIOS */}
             <section className="grid md:grid-cols-3 gap-6">
-                {["Ansiedade", "Autoconhecimento", "Relacionamentos"].map((item, i) => (
+                {["Transtornos do Neurodesenvolvimento",
+                    "Transtorno do Espectro Autista (TEA)",
+                    "Ansiedade",
+                    "Depressão",
+                    "Transtorno Obsessivo-Compulsivo (TOC)",
+                    "Transtorno Bipolar",
+                    "Transtornos do sono",
+                    "Dificuldades emocionais e comportamentais",
+                    "Dificuldades escolares e de aprendizagem",
+                    "Questões familiares e de vínculo",
+                    "Situações de trauma, luto ou mudanças importantes",
+                    "Automutilação e sofrimento emocional na adolescência",
+                    "Uso de substâncias na adolescência"
+                ].map((item, i) => (
                     <motion.div
                         key={i}
                         initial={{ opacity: 0, y: 40 }}
@@ -56,7 +70,6 @@ export default function Home() {
                         className="p-6 shadow rounded-xl border bg-[#373b49]"
                     >
                         <h3 className="font-semibold text-white">{item}</h3>
-                        <p className="text-gray-400 text-sm">Acompanhamento especializado</p>
                     </motion.div>
                 ))}
             </section>
