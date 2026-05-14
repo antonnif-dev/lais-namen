@@ -14,7 +14,7 @@ export default function Sobre() {
             </div>
             <div className='flex flex-col md:flex-row gap-5'>
                 <div className='md:w-1/3'>
-                    <div className="text-gray-200 lg:text-3xl space-y-6 leading-relaxed">
+                    <div className="lg:text-3xl space-y-6 leading-relaxed">
 
                         <p>
                             Acredito que cuidar de uma criança vai muito além de tratar sintomas — é acolher histórias, escutar silêncios e fortalecer vínculos.
@@ -41,13 +41,13 @@ export default function Sobre() {
                 <div className='md:w-1/3 flex justify-center items-center'>
                     <motion.img
                         src="/Foto-Sobre.jpg"
-                        className='w-full max-w-[400px]'
+                        className='w-full max-w-[440px]'
                         whileHover={{ scale: 1.08 }}
                         transition={{ duration: 0.4 }}
                     />
                 </div>
-                <div className='md:w-1/3 flex items-center'>
-                    <div className="text-gray-200 lg:text-3xl space-y-6">
+                <div className='md:w-1/3'>
+                    <div className="lg:text-3xl space-y-6 leading-relaxed">
 
                         <p>
                             Graduada em Medicina - Médica (2015) – Faculdade de Medicina de Barbacena.

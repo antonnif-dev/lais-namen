@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
 
-    const whatsappUrl = `https://wa.me/5599999999999?text=${encodeURIComponent("Olá, gostaria de agendar uma sessão.")}`
+    const whatsappUrl = `https://wa.me/553131420880?text=${encodeURIComponent("Olá, gostaria de agendar uma sessão.")}`
 
     return (
         <div className="px-10 space-y-5">
